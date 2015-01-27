@@ -3,6 +3,7 @@ javascript:(function(){
 			'http://placekitten.com/',
 			'http://placeburger.net/',
 			'http://placephant.com/',
+			'http://placeponi.es/',
 			'http://beerhold.it/',
 			'http://www.placeskull.com/',
 			'http://www.placeboobs.com/',

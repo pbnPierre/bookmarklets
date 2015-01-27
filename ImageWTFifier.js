@@ -1,6 +1,5 @@
 javascript:(function(){
-	Array.prototype.slice.call(document.images).map(function(element){
-		var imageholders = [
+	var imageholders = [
 			'http://placekitten.com/',
 			'http://placeburger.net/',
 			'http://placephant.com/',
@@ -17,9 +16,10 @@ javascript:(function(){
 			'http://www.fillmurray.com/',
 			'http://www.placecage.com/'
 		];
-		var height = element.height;var width = element.width;
+	var placer = imageholders[Math.floor(Math.random()*imageholders.length)];
+	Array.prototype.slice.call(document.images).map(function(element){
+		var height = element.height;var width = element.width;		
 		if (height !== 0 && width !== 0){
-			var placer = imageholders[Math.floor(Math.random()*imageholders.length)];
 			element.setAttribute('src', placer + width + '/' + height
 				);
 		};

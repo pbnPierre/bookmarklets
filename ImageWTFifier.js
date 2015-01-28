@@ -9,7 +9,6 @@ javascript:(function(){
 			'http://www.placeboobs.com/',
 			'http://www.nicenicejpg.com/',
 			'http://baconmockup.com/',
-			'http://lorempixel.com/',
 			'http://placebear.com/',
 			'http://placesheen.com/',
 			'http://placecreature.com/',
